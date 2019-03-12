@@ -10,5 +10,5 @@ AggregateMethods:
     DANGERprintDS,
     DANGERvarsEXTRACTDS
 AssignMethods:
-Options: datashield.privacyLevel=5
+Options:
 RoxygenNote: 6.1.1

@@ -8,6 +8,7 @@ Description: DataSHIELD server side DANGER functions
 AggregateMethods:
     DANGERdfEXTRACTDS,
     DANGERprintDS,
+    DANGERplotDS,
     DANGERvarsEXTRACTDS
 AssignMethods:
 Options:

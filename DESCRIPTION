@@ -1,6 +1,6 @@
 Package: dsDanger
-Maintainer: <datashield@obiba.org>
-Author: <datashield@obiba.org>
+Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
+Author: DataSHIELD Developers <datashield@newcastle.ac.uk>
 Version: 5.1.0
 License: GPL-3
 Title: DataSHIELD server side DANGER functions

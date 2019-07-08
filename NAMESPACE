@@ -3,4 +3,5 @@
 export(DANGERdfEXTRACTDS)
 export(DANGERplotDS)
 export(DANGERprintDS)
+export(DANGERseedEXTRACTDS)
 export(DANGERvarsEXTRACTDS)

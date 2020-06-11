@@ -6,7 +6,6 @@ License: GPL-3
 Title: DataSHIELD server side DANGER functions
 Description: DataSHIELD server side DANGER functions.
 AggregateMethods:
-    DANGERc2sMATDFDS,
     DANGERdfEXTRACTDS,
     DANGERpassPARSERDS,
     DANGERprintDS,
@@ -15,5 +14,6 @@ AggregateMethods:
     DANGERseedEXTRACTDS,
     DANGERvarsEXTRACTDS
 AssignMethods:
+    DANGERc2sMATDFDS
 Options:
 RoxygenNote: 7.1.0

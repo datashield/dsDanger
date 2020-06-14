@@ -34,7 +34,9 @@ DANGERlistcodeDS <- function(package.name = NULL, function.name = NULL)
     func <- NULL;
     func <- try(get(function.name, packageEnvir), silent = TRUE);
 
-    if (is.null(func) || (! is.function(func)))
+    stop(paste0(package.name, '|', function.name, '|', class(func), '|', is.function(func), '|', deparse(func)))
+
+    if (is.null(func) || (! ('function' %in% class(func))))
         stop('Error: Unable to obtain function', call.=FALSE);
 
     return(deparse(func));

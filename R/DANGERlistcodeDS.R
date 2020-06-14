@@ -13,14 +13,14 @@ DANGERlistcodeDS <- function(package.name = NULL, function.name = NULL)
     if (is.null(package.name))
         stop('Error: Parameter "package.name" is NULL', call.=FALSE);
 
-    if ('character' %in% class(package.name))
+    if (!('character' %in% class(package.name)))
         stop('Error: Parameter "package.name" is not a character vector', call.=FALSE);
 
     # Check value of function.name
     if (is.null(function.name))
         stop('Error: Parameter "function.name" is NULL', call.=FALSE);
 
-    if ('character' %in% class(function.name))
+    if (!('character' %in% class(function.name)))
         stop('Error: Parameter "function.name" is not a character vector', call.=FALSE);
 
     # Obtain and check package's environment

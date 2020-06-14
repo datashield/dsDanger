@@ -23,8 +23,6 @@ DANGERlistcodeDS <- function(package.name = NULL, function.name = NULL)
     if (!('character' %in% class(function.name)))
         stop('Error: Parameter "function.name" is not a character vector', call.=FALSE);
 
-    stop(paste0(search(), collapse = '|'))
-
     # Obtain and check package's environment
     packageEnvir <- NULL;
     try(packageEnvir <- as.environment(paste0('package:', package.name)), silent = TRUE);
@@ -35,8 +33,6 @@ DANGERlistcodeDS <- function(package.name = NULL, function.name = NULL)
     # Obtain and check function object
     func <- NULL;
     try(func <- get(function.name, packageEnvir), silent = TRUE);
-
-    stop(paste0(package.name, '|', function.name, '|', class(func), '|', is.function(func), '|', deparse(func)))
 
     if (is.null(func) || (! ('function' %in% class(func))))
         stop('Error: Unable to obtain function', call.=FALSE);

@@ -25,14 +25,14 @@ DANGERlistcodeDS <- function(package.name = NULL, function.name = NULL)
 
     # Obtain and check package's environment
     packageEnvir <- NULL;
-    packageEnvir <- try(as.environment(paste0('package:', package.name)), silent = TRUE);
+    try(packageEnvir <- as.environment(paste0('package:', package.name)), silent = TRUE);
 
     if (is.null(packageEnvir))
         stop('Error: Parameter "parameter.name" does not correspond to package', call.=FALSE);
 
     # Obtain and check function object
     func <- NULL;
-    func <- try(get(function.name, packageEnvir), silent = TRUE);
+    try(func <- get(function.name, packageEnvir), silent = TRUE);
 
     stop(paste0(package.name, '|', function.name, '|', class(func), '|', is.function(func), '|', deparse(func)))
 

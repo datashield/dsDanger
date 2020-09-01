@@ -2,6 +2,7 @@
 
 export(DANGERc2sMATDFDS)
 export(DANGERdfEXTRACTDS)
+export(DANGERlistcodeDS)
 export(DANGERpassPARSERDS)
 export(DANGERplotDS)
 export(DANGERprintDS)

@@ -1,16 +1,20 @@
 Package: dsDanger
 Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
 Author: DataSHIELD Developers <datashield@newcastle.ac.uk>
-Version: 5.1.0
+Version: 6.1.0
 License: GPL-3
 Title: DataSHIELD server side DANGER functions
 Description: DataSHIELD server side DANGER functions.
 AggregateMethods:
+    DANGERc2sMATDFDS,
+    DANGERlistcodeDS,
     DANGERdfEXTRACTDS,
+    DANGERpassPARSERDS,
     DANGERprintDS,
     DANGERplotDS,
+    DANGERsearchDS,
     DANGERseedEXTRACTDS,
     DANGERvarsEXTRACTDS
 AssignMethods:
 Options:
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0

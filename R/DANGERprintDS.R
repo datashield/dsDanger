@@ -1,7 +1,16 @@
-#' 
+#' @title DANGERprintDS
+#' @description DANGERprintDS
+#' @details DANGER function
+#' @param xName character string naming first object to be
+#' printed on clientside
+#' from serverside to clientside
+#' @param yName character string naming second object to be
+#' printed on clientside
+#' @param zName character string naming third object to be 
+#' printed on clientside
+#' @return DANGER function
+#' @author DataSHIELD Development Team
 #' @export
-#' 
-
 DANGERprintDS <- function(xName=NULL,yName=NULL, zName=NULL){
 
  if(!is.null(xName)){

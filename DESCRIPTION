@@ -9,6 +9,7 @@ AggregateMethods:
     DANGERc2sMATDFDS,
     DANGERlistcodeDS,
     DANGERdfEXTRACTDS,
+    DANGERdmtEXTRACTDS,
     DANGERpassPARSERDS,
     DANGERprintDS,
     DANGERplotDS,

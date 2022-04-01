@@ -1,7 +1,7 @@
 Package: dsDanger
 Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
 Author: DataSHIELD Developers <datashield@newcastle.ac.uk>
-Version: 6.2.0-1
+Version: 6.2.0
 License: GPL-3
 Title: DataSHIELD server side DANGER functions
 Description: DataSHIELD server side DANGER functions.

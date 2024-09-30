@@ -18,7 +18,7 @@ a vector of character containing the code for the function, or a stop error mess
 list the code for a named fucntion in a named package
 }
 \details{
-Serverside aggregate function {DANGERsearchDS} called by clientside function
+Serverside aggregate function \code{DANGERsearchDS} called by clientside function
 }
 \author{
 Stuart Wheater, DataSHIELD Team.

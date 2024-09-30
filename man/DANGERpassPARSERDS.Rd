@@ -20,11 +20,11 @@ and determines whether it is passed by the parser and, if so, what form it
 takes after it has traversed the parser.
 }
 \details{
-Serverside aggregate function {DANGERpassPARSERDS} called by clientside function
-{ds.DANGERpassPARSER} which presents an R object or character string to the DataSHIELD R parser
+Serverside aggregate function \code{DANGERpassPARSERDS} called by clientside function
+\code{ds.DANGERpassPARSER} which presents an R object or character string to the DataSHIELD R parser
 and determines whether it is passed or blocked by the parser. If it passes,
 it then explores what form it takes after it has traversed the parser. For further details
-see help for {ds.DANGERpassPARSER}.
+see help for \code{ds.DANGERpassPARSER}.
 }
 \author{
 Paul Burton (2020)

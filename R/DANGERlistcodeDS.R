@@ -1,6 +1,6 @@
 #' @title lists the code for a function
 #' @description list the code for a named fucntion in a named package
-#' @details Serverside aggregate function {DANGERsearchDS} called by clientside function
+#' @details Serverside aggregate function \code{DANGERsearchDS} called by clientside function
 #' @param package.name a vector of character containing a package name
 #' @param function.name a vector of character containing a function name
 #' @return a vector of character containing the code for the function, or a stop error message

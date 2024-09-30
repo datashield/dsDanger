@@ -2,8 +2,8 @@
 #' @title lists all environments on serverside
 #' @description creates a list of the names of all of the serverside
 #' environments
-#' @details Serverside aggregate function {DANGERsearchDS} called by clientside function
-#' {ds.DANGERsearch}. No arguments need to be specified
+#' @details Serverside aggregate function \code{DANGERsearchDS} called by clientside function
+#' \code{ds.DANGERsearch}. No arguments need to be specified
 #' @return a vector of character strings to the clientside giving the names of
 #' each of the R environments on the serverside in order of their numeric "pos"
 #' @author Paul Burton 2020

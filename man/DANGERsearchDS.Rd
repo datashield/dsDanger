@@ -15,8 +15,8 @@ creates a list of the names of all of the serverside
 environments
 }
 \details{
-Serverside aggregate function {DANGERsearchDS} called by clientside function
-{ds.DANGERsearch}. No arguments need to be specified
+Serverside aggregate function \code{DANGERsearchDS} called by clientside function
+\code{ds.DANGERsearch}. No arguments need to be specified
 }
 \author{
 Paul Burton 2020

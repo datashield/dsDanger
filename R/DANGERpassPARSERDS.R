@@ -2,11 +2,11 @@
 #' @description presents an R object or character string to the DataSHIELD R parser
 #' and determines whether it is passed by the parser and, if so, what form it
 #' takes after it has traversed the parser. 
-#' @details Serverside aggregate function {DANGERpassPARSERDS} called by clientside function
-#' {ds.DANGERpassPARSER} which presents an R object or character string to the DataSHIELD R parser
+#' @details Serverside aggregate function \code{DANGERpassPARSERDS} called by clientside function
+#' \code{ds.DANGERpassPARSER} which presents an R object or character string to the DataSHIELD R parser
 #' and determines whether it is passed or blocked by the parser. If it passes,
 #' it then explores what form it takes after it has traversed the parser. For further details
-#' see help for {ds.DANGERpassPARSER}.
+#' see help for \code{ds.DANGERpassPARSER}.
 #' @param transmit.object fully specified by equivalent clientside argument.
 #' @return information about whether the input object/string gets blocked or passed
 #' by the parser. If it passes the parser, the object itself and a record of its class

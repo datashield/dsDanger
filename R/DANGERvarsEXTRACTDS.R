@@ -1,6 +1,21 @@
-#'
+#' @title DANGERvarsEXTRACT
+#' @description DANGERvarsEXTRACT
+#' @details DANGER function
+#' @param xName character string naming first variable to be copied
+#' from serverside to clientside
+#' @param yName character string naming second variable to be copied
+#' from serverside to clientside
+#' @param zName character string naming third variable to be copied
+#' from serverside to clientside
+#' @param uName character string naming fourth variable to be copied
+#' from serverside to clientside
+#' @param vName character string naming fifth variable to be copied
+#' from serverside to clientside
+#' @param wName character string naming sixth variable to be copied
+#' from serverside to clientside
+#' @return DANGER function
+#' @author DataSHIELD Development Team
 #' @export
-#' 
 
 DANGERvarsEXTRACTDS <- function(xName=NULL,yName=NULL,zName=NULL,uName=NULL,vName=NULL,wName=NULL){
 
